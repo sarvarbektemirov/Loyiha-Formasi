@@ -1,0 +1,43 @@
+--> 1 # Loyha papkani yashash 
+
+    1.Terminal ochish kk
+
+    2. Muhit yasladi python -m venv --nomi--
+
+    3. Muhit ni ishga tushirish    .\muhit\Scripts\activate
+
+    4.kutubxonalar ro'yxatini chiqarish  pip freeze
+
+    5. Kutubxonalar ro'yatini yangi file ga yozish
+
+
+
+--> 2 # djangoni sozlama filelarini ko'rsatish
+
+    1. django-admin startproject --sozlamalar-- .
+
+    2. Ilovani ishga tushirish python .\manage.py runserver
+
+
+--> 3 # ilova yasash 
+
+    1. ilova yasash python manage.py startapp --ilovanomi-- 
+
+    2. ilova ichida urls.py file yasaymiz 
+
+    3. Installed_apps ga qosh nomini
+
+    4. sozlamalar ichidagi urls ni kopiya ol va ilovaningni ichiga tashla
+
+
+
+    MVT
+--> 4 # malumotlar bazasini yasash 
+
+    1.python manage.py makemigrations
+    
+    2.python manage.py migrate
+
+--> 5 # admin sahifaga kirish
+    1.User akaunt yasaladi. python manage.py createsuperuser 
+
